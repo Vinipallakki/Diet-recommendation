@@ -158,7 +158,7 @@ from google.cloud import bigquery
 # -------------------
 load_dotenv()
 
-project_id = "gen-lang-client-0224588610"
+project_id = ""
 dataset = "first"
 table = "shilpa"
 location = os.getenv("GOOGLE_CLOUD_LOCATION")  # e.g. "us-central1"
